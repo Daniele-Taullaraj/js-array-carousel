@@ -13,3 +13,10 @@ MILESTONE2
 
 MILESTONE3
 -aggiungo una funzione al click del bottone next che mi contiene le stesse istruzioni di M2
+
+MILESTONE4
+-aggiungo la funzione contraria al next sul bottone prevoius, dove una volta che l'indice mi arriva a 0, avviene il suo reset impostandolo con il valore max per selezionare l'ultimo elemento ed aggiungergli la classe
+
+//LO SCRIPT FUNZIONA SOLO NEL CASO IN CUI LO ZERESIMO ELEMENTO HA LA CLASSE ACTIVE NEL CASO CONTRARIO NO
+-------DA MODIFICARE-------
+
