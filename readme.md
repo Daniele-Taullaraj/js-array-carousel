@@ -20,3 +20,8 @@ MILESTONE4
 UPDATE
 -Lo script di prima funzionava solo nel caso in cui l'elemeto di partenza era lo zeresimo ,ho risolto il tutto aggiungendo un ciclo for che prima mi va a cercare quale degli elementi contiene la classe active e solo dopo può andare avanti.
 
+BONUS 2
+-creo un container flex e posiziono a destra la main-card e sulla sinistra una little-card(flex-column contenente le immagini con la classe opaity)
+-chiedo al DOM gli elemnti con la classe opacity
+-visto chè le immagini con la classe opacity,sono messe sul DOM con lo stesso ordine delle immagini all'interno della main-card mi basterà aggiungere/rimuovere la classe "Noopacity" nello stesso momento i  cui aggiungo/rimuovo la classe "active"
+

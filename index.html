@@ -11,15 +11,41 @@
 </head>
 
 <body>
-    <div class="container d-flex flex-column align-items-center">
+    <div class="d-flex flex-column align-items-center">
 
         <h1 class="my-5">Carousel</h1>
 
-        <img src="./img/01.webp" class="slide 1 active" alt="">
-        <img src="./img/02.webp" class="slide 2" alt="">
-        <img src="./img/03.webp" class="slide 3" alt="">
-        <img src="./img/04.webp" class="slide 4" alt="">
-        <img src="./img/05.webp" class="slide 5" alt="">
+        <div class="d-flex one">
+            <div id="main-card">
+                <img src="./img/01.webp" class="slide 1 active" alt="">
+                <img src="./img/02.webp" class="slide 2" alt="">
+                <img src="./img/03.webp" class="slide 3" alt="">
+                <img src="./img/04.webp" class="slide 4" alt="">
+                <img src="./img/05.webp" class="slide 5" alt="">
+            </div>
+            <div id="little-card" class="d-flex flex-column">
+                <div class="relative">
+                    <img src="./img/01.webp" class="slide-lateral" alt="">
+                    <div class="opacity Noopacity"></div>
+                </div>
+                <div class="relative">
+                    <img src="./img/02.webp" class="slide-lateral" alt="">
+                    <div class="opacity"></div>
+                </div>
+                <div class="relative">
+                    <img src="./img/03.webp" class="slide-lateral" alt="">
+                    <div class="opacity"></div>
+                </div>
+                <div class="relative">
+                    <img src="./img/04.webp" class="slide-lateral" alt="">
+                    <div class="opacity"></div>
+                </div>
+                <div class="relative">
+                    <img src="./img/05.webp" class="slide-lateral" alt="">
+                    <div class="opacity"></div>
+                </div>
+            </div>
+        </div>
 
         <div class="mt-5">
             <button class="previousBtn btn btn-outline-primary">Previous</button>

@@ -4,9 +4,25 @@
     box-sizing: border-box;
 }
 
-.container img {
-    width: 70%;
-    height: 35vh;
+.one {
+    height: 70vh;
+}
+
+#main-card {
+    width: 60rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+#little-card {
+    height: 100%;
+    object-fit: cover;
+}
+
+#main-card img,
+#little-card img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -16,4 +32,23 @@
 
 .active {
     display: block;
+}
+
+.opacity {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.relative {
+    position: relative;
+    width: 18rem;
+    height: calc(100% / 5);
+}
+
+.Noopacity {
+    background-color: rgba(0, 0, 0, 0);
 }
