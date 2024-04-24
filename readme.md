@@ -1,0 +1,2 @@
+-Creo il layout della pagina mettendo le immagini dentro un contenitore e 2 pulsanti per lo scorrimento avanti e indietro
+-Aggiungo un'po di css per gestire il layout e creo anche 2 classi apposite per gestire il d-none e il d-block delle img, dov'è possibile utilizzo bootstrap (button,ecc..)
