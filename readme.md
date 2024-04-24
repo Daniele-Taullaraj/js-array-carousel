@@ -17,6 +17,6 @@ MILESTONE3
 MILESTONE4
 -aggiungo la funzione contraria al next sul bottone prevoius, dove una volta che l'indice mi arriva a 0, avviene il suo reset impostandolo con il valore max per selezionare l'ultimo elemento ed aggiungergli la classe
 
-//LO SCRIPT FUNZIONA SOLO NEL CASO IN CUI LO ZERESIMO ELEMENTO HA LA CLASSE ACTIVE NEL CASO CONTRARIO NO
--------DA MODIFICARE-------
+UPDATE
+-Lo script di prima funzionava solo nel caso in cui l'elemeto di partenza era lo zeresimo ,ho risolto il tutto aggiungendo un ciclo for che prima mi va a cercare quale degli elementi contiene la classe active e solo dopo può andare avanti.
 
